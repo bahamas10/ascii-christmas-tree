@@ -7,8 +7,8 @@
 # License: MIT
 
 # colors
-color_tree=$(tput setaf 2)
-color_star=$(tput setaf 227)
+color_tree=$(tput sgr0; tput setaf 2)
+color_star=$(tput setaf 227 blink)
 
 # lights - dave matched these to "vintaglo vintage christmas lights"
 color_lights=(
