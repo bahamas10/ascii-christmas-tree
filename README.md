@@ -15,6 +15,10 @@ Run it right now with `curl`:
 curl xmas.ysap.sh | bash
 ```
 
+View it in your browser:
+
+https://xmas.ysap.sh
+
 Clone the repo and run it locally:
 
 ```
