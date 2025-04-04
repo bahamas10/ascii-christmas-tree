@@ -87,5 +87,10 @@ while true; do
 
 	# increment the lights and pause for the animation to play
 	((idx++))
-	sleep 1
+
+	# quit if the user types anything - otherwise sleep for a second
+	read -n 1 -t 1 input
+	if [[ -n $input ]]; then
+		exit
+	fi
 done
